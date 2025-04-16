@@ -6,13 +6,13 @@ module.exports = {
         name: "admin",
         aliases: ["ad"],
         version: "1.0",
-        author: "♡︎ 𝐻𝐴𝑆𝐴𝑁 ♡︎",
+        author: "♡︎ MUSHFIQ ♡︎",
         countDown: 5,
         role: 0,
         shortDescription: {
 			en: "Add, remove or see the admin list for this bot"
 		},
-        longDescription: {
+		   longDescription: {
 			en: "Add, remove or see the admin list for this bot"
 		},
         category: "admin",
@@ -28,13 +28,13 @@ module.exports = {
         en: {
             listAdmin: "🎭 𝗢𝗪𝗡𝗘𝗥 𝑎𝑛𝑑 𝗔𝗗𝗠𝗜𝗡 🎭"
                 + "\n ♦___________________♦"
-                + "\n ♕︎ 𝑶𝑾𝑵𝑬𝑹 ♕︎: ✨ 𝐻𝐴𝑆𝐴𝑁 ✨"
+                + "\n ♕︎ 𝑶𝑾𝑵𝑬𝑹 ♕︎: ✨ MUSHFIQ ✨"
                 + "\n _____________________________"
                 + "\n _____♔︎ 𝑨𝑫𝑴𝑰𝑵'𝑺 ♔︎_____"
                 + "\n %1"
                 + "\n _____________________________"
-                + "\n ♔︎ 𝑂𝑊𝑁𝐸𝑅 ♔︎:https://www.facebook.com/Itz.HaSaN.00"
-                + "\n |__𝐻𝐴𝑆𝐴𝑁'𝑆_𝐵𝑂𝑇__|",
+                + "\n ♔︎ 𝑂𝑊𝑁𝐸𝑅 ♔︎:https://m.me/"
+                + "\n |__MUSHFIQ BOT__|",
             noAdmin: "⚠️ | No admins found!",
             added: "✅ | Added admin role for %1 users:\n%2",
             alreadyAdmin: "\n⚠️ | %1 users already have admin role:\n%2",
@@ -52,7 +52,7 @@ module.exports = {
         switch (args[0]) {
             case "list":
             case "-l": {
-                
+                // ✅ **admin list সবাই দেখতে পারবে**
                 if (config.adminBot.length === 0) {
                     return message.reply(getLang("noAdmin"));
                 }
@@ -64,7 +64,7 @@ module.exports = {
             case "-a":
             case "remove":
             case "-r": {
-                
+                // ✅ **add & remove শুধুমাত্র অ্যাডমিনরা চালাতে পারবে**
                 if (!config.adminBot.includes(senderID)) {
                     return message.reply(getLang("notAllowed"));
                 }
@@ -73,7 +73,7 @@ module.exports = {
             if (args[0] === "add" || args[0] === "-a") {
                 let uids = [];
 
-               
+                // ✅ Check for mentioned users, replied message, or direct IDs
                 if (Object.keys(event.mentions).length > 0) {
                     uids = Object.keys(event.mentions);
                 } else if (event.type === "message_reply") {
@@ -114,7 +114,7 @@ module.exports = {
             if (args[0] === "remove" || args[0] === "-r") {
                 let uids = [];
 
-               
+                // ✅ Check for mentioned users, replied message, or direct IDs
                 if (Object.keys(event.mentions).length > 0) {
                     uids = Object.keys(event.mentions);
                 } else if (event.type === "message_reply") {
