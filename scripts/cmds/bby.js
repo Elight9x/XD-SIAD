@@ -6,7 +6,7 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
   name: "bby",
-  aliases: ["baby", "bot", "kuttu"],
+  aliases: ["baby", "bot", "Siad"],
   version: "6.9.0",
   author: "dipto",
   countDown: 0,
@@ -147,11 +147,11 @@ module.exports.onChat = async ({ api, event,message }) => {
       const arr = body.replace(/^\S+\s*/, "") || "Mushfiq";
       if (arr === "Mushfiq"){ 
 const funnyReplies = [
-          "কি হয়ছে বেবি দাকস কেন 🍆🙂",
+          "কি হয়ছে বেবি দাকস কেন 😒🙂",
     "আমারে কেনো লাগবে তুর বল 🦆",
     "Ami ekhane bby 🥹",
     "Amake vhule jaw 🤌😫",
-    "Ei ne amar rubbish boss er id\n\n✨ https://www.facebook.com/Itz.HaSaN.00 🫰\n\namare arr disturb korbi nah jah 😑😒",
+    "Ei ne amar Mushfiq boss er id\n\n✨ https://www.facebook.com/profile.php?id=100093588184623 🫰\n\namare arr disturb korbi nah jah 😑😒",
     "ki hoiche ki koibi ?🐐",
     "kire bukachuda dakhtechos killai etw🐐👈",
     "Ami shudhu Mushfiq er bbu🤌😫",
