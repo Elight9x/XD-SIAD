@@ -25,7 +25,7 @@ module.exports = {
 				Birthday: '𝟐3-10-𝟐𝟎𝟎7',
 				religion: '𝑰𝑺𝑳𝑨𝑴',
 				hobby: '𝑭𝒍𝒊𝒓𝒕𝒊𝒏𝒈 😁',
-				Fb: 'https://www.facebook.com/Itz.HaSaN.00',
+				Fb: 'https://www.facebook.com/https://m.me/',
 				Relationship: '𝑨𝑳𝑾𝑨𝒀𝑺 𝑩𝑬 𝑺𝑰𝑵𝑮𝑳𝑬',
 				Height: '5"7'
 			};
