@@ -144,8 +144,8 @@ module.exports.onChat = async ({ api, event,message }) => {
   try{
     const body = event.body ? event.body.toLowerCase() : ""
     if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("janu") || body.startsWith("kuttu")){
-      const arr = body.replace(/^\S+\s*/, "") || "hasan";
-      if (arr === "hasan"){ 
+      const arr = body.replace(/^\S+\s*/, "") || "Mushfiq";
+      if (arr === "Mushfiq"){ 
 const funnyReplies = [
           "কি হয়ছে বেবি দাকস কেন 🍆🙂",
     "আমারে কেনো লাগবে তুর বল 🦆",
@@ -154,18 +154,18 @@ const funnyReplies = [
     "Ei ne amar rubbish boss er id\n\n✨ https://www.facebook.com/Itz.HaSaN.00 🫰\n\namare arr disturb korbi nah jah 😑😒",
     "ki hoiche ki koibi ?🐐",
     "kire bukachuda dakhtechos killai etw🐐👈",
-    "Ami shudhu hasan er bbu🤌😫",
+    "Ami shudhu Mushfiq er bbu🤌😫",
     "I love you ummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmaaaaaaaaaaaaaaaaaaahhhhhhhhh🫦💋",
     "Kire bolod, amare koitechos naki? 🐸",
     "ei new jush khaw, bot bolte bolte hapai gecho 🧃",
     "Amake vhule jao 🥺",
-    "Ami shudhu Hasan er. Don't disturb me! 🤦",
+    "Ami shudhu Mushfiq er. Don't disturb me! 🤦",
     "bujhchi tui je Single na hole amare dakti na ekhon ki bolbi bol! 🙂🤌",
     "ei mon tumake dilam 🦆💨",
     "bujhchi tur kew nai amar motoi single 🫶💔",
-    "কিরে বলদ তুই এইখানে !?🍆",
+    "কিরে বলদ তুই এইখানে !?😒",
     "জানিস তুর আর আমার মিল কিসে ? ওইটা হচ্ছে তুই ও লুইচ্চা আর আমার কথা কি কমু!?🙂🚬",
-    "আমার বস হাসান রে ডাক ওই সিঙ্গেল আছে 🐸🫦",
+    "আমার বস মুশফিক রে ডাক ওই সিঙ্গেল আছে 🐸🫦",
     "কি হইছে আমার কি কাজে লাগবে তুর !?🌚👀",
     "তুই সেই লুইচ্চাটা না !? 🙂🔪",
     "bby daktecho kno ummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmaaaaaaaaaaaaaaaaaaahhhhhhhhh 🫦💋\n\n🗣️Hasan🐸🔪",
