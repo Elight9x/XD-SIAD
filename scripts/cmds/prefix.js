@@ -108,7 +108,7 @@ module.exports = {
     });
     const xyrene = {
       body: getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
-      attachment: await global.utils.getStreamFromURL("http://remakeai-production.up.railway.app/Remake_Ai/Nyx_Remake_1744617090911.gif")
+      attachment: await global.utils.getStreamFromURL("http://remakeai-production.up.railway.app/Remake_Ai/Nyx_Remake_1745071508962.mp4")
         };
     if (event.body && event.body.toLowerCase() === "prefix")
       return () => {
